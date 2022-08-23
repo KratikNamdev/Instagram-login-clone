@@ -1,0 +1,163 @@
+*{
+    margin: 0;padding: 0;font-family: 'Roboto', sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 20px; */
+}
+
+.phone-one{
+    height: 650px;
+}
+.log-in{
+    height: 450px;
+    width: 400px;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: -100px;
+
+}
+.id{
+    width: 80%;
+    height: 25px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb
+    
+}
+.logo{
+    margin-bottom: 50px;
+}
+.log-btn{
+    width: 85%;
+    height: 35px;
+    margin-bottom: 20px;
+    background-color: #0095F6;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+}
+.fb{
+    height: 20px;
+    
+}
+.fblog{
+
+}
+.log{
+    display: flex;
+    flex-direction: column;
+   
+}
+.fg{
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #385185;
+}
+.fb{
+    margin-right: 10px;
+}
+.fb-div{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.singup{
+    height: 30px;
+    width: 380px;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    
+}
+.our-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.store{
+    display: flex;
+    flex-direction: row;
+    margin-left: 450px;
+}
+.appstore{
+    height: 40px;
+    margin-right: 5px;
+    
+}
+.right{
+    margin-right: 10px;
+}
+.getapp{
+    margin-top: -100px;
+    margin-left: 420px;
+    margin-bottom: 15px;
+}
+.meta-div{
+    width: 70%;
+    color: #8e8e8e;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+margin-top: 30px;
+}
+.inst{
+    color: #8e8e8e;
+    margin-top: 20px;
+
+}
+@media(max-width:768px)
+{
+    .container{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .phone{
+        display: none;
+    }
+    .log-in{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        width: 100%;
+        
+    }
+    .getapp{
+        display: flex;
+        margin-top: 30px;
+        margin-left: -0px;
+        
+    }
+    .store{
+        margin-left: -0px;
+
+    }
+    .meta-div{
+       display: none;
+    }
+}
+
